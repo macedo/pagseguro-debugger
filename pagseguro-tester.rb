@@ -1,6 +1,6 @@
 require 'sinatra'
 require 'sinatra/json'
 
-get '/notifications' do
+post '/notifications' do
   json :params => params
 end
